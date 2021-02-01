@@ -47,6 +47,7 @@ body {
   justify-content: space-around;
 }
 
+
 .info {
   position: absolute;
   color: white;
@@ -132,4 +133,12 @@ body {
 .visite-kaart-sam blockquote {
   font-size: 1.4em;
   text-shadow: 2px 2px 2px #000;
+}
+
+article {
+  transition: .3s;
+}
+
+article:hover {
+  transform: scale(1.05);
 }
