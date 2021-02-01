@@ -16,10 +16,11 @@ html {
 .visite-kaart-sam {
   border-radius: 2em;
   font-family: sans-serif;
-  background: linear-gradient(to right, #de6262, #ffb88c);
+  /* background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6); */
+  background: #212121;
   text-align: center;
   max-width: 500px;
-  min-height: 800px;
+  min-height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +28,10 @@ html {
 }
 
 .visite-kaart-sam h1 {
+  color: #F97E2B;
+  ;
   margin: 0;
+  font-size: 2em;
 }
 
 .visite-kaart-sam h2 {
@@ -39,21 +43,50 @@ html {
 .visite-kaart-sam img {
   width: 50%;
   border-radius: 50%;
+  border: 8px solid #F97E2B;
+  ;
 }
 
 .visite-kaart-sam ul {
-  min-height: 7em;
-  color: black;
+  color: #F97E2B;
+  height: 7em;
   background: white;
-  padding: 4em;
   list-style-type: none;
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-around;
-  padding: 0;
+  padding: 1em 0em;
+  margin: 0;
+  margin-top: -3.5em;
+}
+
+.visite-kaart-sam .image-container {
+  position: relative;
+}
+
+.visite-kaart-sam .jaar {
+  position: absolute;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-weight: 800;
+  font-size: 1.4em;
+  color: black;
+  top: 0;
+  left: 30%;
+  transform: rotate(-30deg);
+}
+
+.visite-kaart-sam ul li {
+  font-weight: 700;
+  /* letter-spacing: .; */
 }
 
 .visite-kaart-sam ul li:nth-of-type(2) {
-  margin-top: -3em;
+  padding-top: 3em;
+}
+
+.visite-kaart-sam blockquote {
+  font-size: 1.4em;
+  text-shadow: 2px 2px 2px #000;
 }
