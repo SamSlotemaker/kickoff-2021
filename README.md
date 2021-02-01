@@ -1,4 +1,4 @@
-# Minor Web Design & Development Kickoff 2021
+# Minor Web Design & Development Kickoff 2021 Jep
 
 ## Informatie
 Maandag, 1 februari  begin om 9:30 de kickoff. Be there !

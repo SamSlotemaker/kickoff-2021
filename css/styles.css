@@ -1,14 +1,59 @@
 :root {
-  --primary:#FFF;
-  --secondary:#000;
+  --primary: #FFF;
+  --secondary: #000;
 }
 
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 html {
   background: var(--secondary);
   color: var(--primary);
+}
+
+.visite-kaart-sam {
+  border-radius: 2em;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #de6262, #ffb88c);
+  text-align: center;
+  max-width: 500px;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.visite-kaart-sam h1 {
+  margin: 0;
+}
+
+.visite-kaart-sam h2 {
+  font-weight: 400;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.visite-kaart-sam img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.visite-kaart-sam ul {
+  min-height: 7em;
+  color: black;
+  background: white;
+  padding: 4em;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.visite-kaart-sam ul li:nth-of-type(2) {
+  margin-top: -3em;
 }
