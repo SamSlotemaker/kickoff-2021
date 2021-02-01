@@ -12,7 +12,7 @@ Als je geen goede werkplek hebt neem dan vooral via Teams contact op met Joost o
 [Bekijk de opdracht: Kennismaken met je team](https://cmda-minor-web.github.io/kickoff-2021/)
 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+[LIVE LINK](https://samslotemaker.github.io/kickoff-2021/)
 
 <!-- ☝️ replace this description with a description of your own work -->
 
