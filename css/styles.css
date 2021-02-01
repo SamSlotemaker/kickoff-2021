@@ -89,6 +89,7 @@ body {
   color: #212121;
   margin: 0;
   font-size: 2em;
+  transition: .3s ease-in-out;
 }
 
 .visite-kaart-sam h2 {
@@ -96,13 +97,14 @@ body {
   color: rgb(46, 45, 45);
   font-size: 1.2em;
   margin: 0;
+  transition: .2s ease-in-out;
 }
 
 .visite-kaart-sam .image-container img {
   width: 50%;
   border-radius: 50%;
   border: 8px solid #e4e4e4;
-  ;
+  transition: .2s ease-in-out;
 }
 
 .visite-kaart-sam ul {
@@ -130,7 +132,9 @@ body {
   font-weight: 800;
   font-size: 1.4em;
   color: black;
+  z-index: 10;
   top: 0;
+  transition: .3s ease-in-out;
   left: 30%;
   transform: rotate(-30deg);
 }
@@ -154,5 +158,21 @@ article {
 }
 
 article:hover {
-  transform: scale(1.05);
+  transform: translateY(-1em) scale(1.05);
+}
+
+article:hover h1 {
+  transform: scale(1.2);
+}
+
+article:hover h2 {
+  transform: scale(1.1);
+}
+
+article:hover .image-container img {
+  transform: translateY(-10px) scale(1.1);
+}
+
+article:hover .jaar {
+  transform: translateY(-10px) rotate(-30deg) scale(1.1);
 }
