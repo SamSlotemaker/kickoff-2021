@@ -13,11 +13,31 @@ html {
   color: var(--primary);
 }
 
+.terugknop {
+  position: fixed;
+  display: block;
+  padding: 1em;
+  background: #DCDCDC;
+  color: black;
+  font-weight: 700;
+  top: 2em;
+  left: 2em;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #212121;
+}
+
 .visite-kaart-sam {
+  position: relative;
   border-radius: 2em;
   font-family: sans-serif;
   /* background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6); */
-  background: #212121;
+  background: #DCDCDC;
   text-align: center;
   max-width: 500px;
   min-height: 700px;
@@ -27,28 +47,51 @@ html {
   justify-content: space-around;
 }
 
+.info {
+  position: absolute;
+  color: white;
+  z-index: 10;
+  top: 5px;
+  right: 0;
+  transform: translateX(110%);
+}
+
+.info img {
+  height: 1em;
+  margin-right: 5px;
+}
+
+.info a {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-bottom: .4em;
+  text-decoration: none;
+  color: white;
+}
+
 .visite-kaart-sam h1 {
-  color: #F97E2B;
-  ;
+  color: #212121;
   margin: 0;
   font-size: 2em;
 }
 
 .visite-kaart-sam h2 {
   font-weight: 400;
+  color: rgb(46, 45, 45);
   font-size: 1.2em;
   margin: 0;
 }
 
-.visite-kaart-sam img {
+.visite-kaart-sam .image-container img {
   width: 50%;
   border-radius: 50%;
-  border: 8px solid #F97E2B;
+  border: 8px solid #e4e4e4;
   ;
 }
 
 .visite-kaart-sam ul {
-  color: #F97E2B;
+  color: #212121;
   height: 7em;
   background: white;
   list-style-type: none;
