@@ -13,6 +13,20 @@ html {
   color: var(--primary);
 }
 
+.circle {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  left: 0;
+  width: 3em;
+  height: 3em;
+  background-color: black;
+  border-radius: 50%;
+}
+
 .terugknop {
   position: fixed;
   display: block;
